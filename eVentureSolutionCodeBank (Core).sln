@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqQueriesDemo", "LinqQuer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteSubscriberDemo", "WebsiteSubscriberDemo\WebsiteSubscriberDemo.csproj", "{CFC89418-7D08-4317-9B53-C6DEEC779363}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumberGameWithRecursionDemo", "RandomNumberGameWithRecursionDemo\RandomNumberGameWithRecursionDemo.csproj", "{A637AD9A-22E0-47E8-B973-56A2AF5A774C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{CFC89418-7D08-4317-9B53-C6DEEC779363}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFC89418-7D08-4317-9B53-C6DEEC779363}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFC89418-7D08-4317-9B53-C6DEEC779363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A637AD9A-22E0-47E8-B973-56A2AF5A774C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A637AD9A-22E0-47E8-B973-56A2AF5A774C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A637AD9A-22E0-47E8-B973-56A2AF5A774C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A637AD9A-22E0-47E8-B973-56A2AF5A774C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -170,5 +176,6 @@ Global
 		{C860F2A3-6EEA-4B94-B1E8-5B1F05E19A96} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
 		{D02C9580-B3BD-4416-974F-67F07B048CA8} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
 		{CFC89418-7D08-4317-9B53-C6DEEC779363} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
+		{A637AD9A-22E0-47E8-B973-56A2AF5A774C} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
 	EndGlobalSection
 EndGlobal

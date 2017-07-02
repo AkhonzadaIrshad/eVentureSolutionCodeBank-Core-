@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NewFeaturesInCSharp7
 {
-    class PatternMatching_is_Expression
+    class PatterandomNumberMatching_is_Expression
     {
         public static void Main(string[] args)
         {

@@ -5,7 +5,7 @@ namespace MethodsDemo
     class Program
     {
 
-        //static void DemoMethod()//Method Without Returning Anything
+        //static void DemoMethod()//Method Without returning Anything
         // {
 
         //     Console.WriteLine("Hey you called Me ? ");

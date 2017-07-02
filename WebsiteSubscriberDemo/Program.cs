@@ -9,11 +9,11 @@ namespace WebsiteSubscriberDemo
         static void Main(string[] args)
         {
             Website website=new Website();
-            User user=new User();
-            NewUser usern=new NewUser();
-            OtherUser usero=new OtherUser();
+            UserOne user=new UserOne();
+            UserTwo userandomNumber =new UserTwo();
+            UserThree usero =new UserThree();
             website.onNewMail += user.onMailRecived;
-            website.onNewMail += usern.onMailRecived;
+            website.onNewMail += userandomNumber.onMailRecived;
             website.onNewMail += usero.onMailRecived;
 
             website.SendNewMail();
