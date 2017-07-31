@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace EventsDemo
 {
-    class EventArguments:EventArgs
+    class EventArguments : EventArgs
     {
         private string someValue;
 
@@ -13,8 +11,5 @@ namespace EventsDemo
             get { return someValue; }
             set { someValue = value; }
         }
-
-
-
     }
 }

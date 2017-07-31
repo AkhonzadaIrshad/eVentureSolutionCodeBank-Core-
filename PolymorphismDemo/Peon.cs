@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PolymorphismDemo
+﻿namespace PolymorphismDemo
 {
-    class Peon:Employee
+    class Peon : Employee
     {
         public override double TellMeYourSalary()
         {

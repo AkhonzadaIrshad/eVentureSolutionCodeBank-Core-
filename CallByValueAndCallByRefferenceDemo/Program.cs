@@ -6,15 +6,14 @@ namespace CallByValueAndCallByReferenceDemo
     {
         static void Main(string[] args)
         {
-
             //Pass by Value
-            int valueOne = 10; 
-            Console.WriteLine("     - - - - Pass By Value - - - -      \n\n" +     
+            int valueOne = 10;
+            Console.WriteLine("     - - - - Pass By Value - - - -      \n\n" +
                              $"Before Passing To Method : {valueOne}     ");
             MethodByValue(valueOne);
             Console.WriteLine($"After  Passing To Method : {valueOne}    " +
                               "\n\n\n");
-            
+
             //Pass By Reference with ref
             int valueTwo = 10;
             Console.WriteLine("- - - - Pass By Reference (ref) - - - - \n\n" +
@@ -24,7 +23,7 @@ namespace CallByValueAndCallByReferenceDemo
                               "\n\n\n");
 
             //Pass By Reference with out
-            int valueThree=20;
+            int valueThree = 20;
             Console.WriteLine(" - - - - Pass By Reference (out) - - - - \n\n" +
                              $"Before Passing To Method : {valueThree}   ");
             MethodByReferenceForOut(out valueThree);

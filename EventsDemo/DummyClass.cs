@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace EventsDemo
 {
     class DummyClass
     {
-
         public event EventHandler OnPropertyChange;
 
         private string dummyValue;
@@ -19,14 +16,9 @@ namespace EventsDemo
                 dummyValue = value;
                 if (value.Equals("EVS"))
                 {
-                    
-                    OnPropertyChange(this,new EventArguments(){SomeValue = "SomeData"});
-
+                    OnPropertyChange(this, new EventArguments() { SomeValue = "SomeData" });
                 }
-
             }
         }
-
-
     }
 }

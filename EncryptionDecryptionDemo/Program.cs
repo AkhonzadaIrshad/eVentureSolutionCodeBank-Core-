@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace EncryptionDecryptionDemo
 {
@@ -7,7 +6,7 @@ namespace EncryptionDecryptionDemo
     {
         static void Main(string[] args)
         {
-            string data=string.Empty;
+            string data = string.Empty;
             int key;
             string encryptedForm = string.Empty;
             string decryptedFrom = string.Empty;

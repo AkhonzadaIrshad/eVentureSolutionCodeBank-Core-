@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace InterfacesDemo
+﻿namespace InterfacesDemo
 {
-   abstract class Shape
+    abstract class Shape
     {
         private float length;
 
@@ -15,6 +11,5 @@ namespace InterfacesDemo
         }
 
         public abstract void Area();
-
     }
 }

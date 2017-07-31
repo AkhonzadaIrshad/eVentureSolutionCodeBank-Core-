@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace NewFeaturesInCSharp7
 {
@@ -12,7 +10,7 @@ namespace NewFeaturesInCSharp7
             if (value is string)
             {
                 Console.Clear();
-                Console.WriteLine("True");             
+                Console.WriteLine("True");
             }
             else
             {

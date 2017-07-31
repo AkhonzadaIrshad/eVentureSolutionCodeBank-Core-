@@ -12,6 +12,5 @@ namespace DelegatesEventsImplementationDemo
             get { return notification; }
             set { notification = value; }
         }
-
     }
 }

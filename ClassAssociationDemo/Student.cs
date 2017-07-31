@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ClassAssociationDemo
+﻿namespace ClassAssociationDemo
 {
     class Student
     {
-
         private int id;
 
         public int Id
@@ -29,12 +24,9 @@ namespace ClassAssociationDemo
             set { info = value; }
         }
 
-
         public Student()
         {
-            Info=new Info();
+            Info = new Info();
         }
-
-
     }
 }

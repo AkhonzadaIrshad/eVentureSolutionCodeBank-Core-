@@ -1,9 +1,6 @@
 ﻿namespace MakeUpClassBatch311
 {
-    class Teacher:Person
+    class Teacher : Person
     {
-       
-
-
     }
 }

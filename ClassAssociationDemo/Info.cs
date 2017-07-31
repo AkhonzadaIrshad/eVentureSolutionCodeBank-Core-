@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ClassAssociationDemo
+﻿namespace ClassAssociationDemo
 {
     class Info
     {
-
         private float height;
 
         public float Height
@@ -22,6 +17,5 @@ namespace ClassAssociationDemo
             get { return bloodGroup; }
             set { bloodGroup = value; }
         }
-
     }
 }

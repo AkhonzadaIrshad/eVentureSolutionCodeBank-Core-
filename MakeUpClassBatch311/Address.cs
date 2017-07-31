@@ -1,6 +1,6 @@
 ﻿namespace MakeUpClassBatch311
 {
-     class Address
+    class Address
     {
         private string streetAddress;
 
@@ -17,8 +17,5 @@
             get { return city; }
             set { city = value; }
         }
-
-
-
     }
 }

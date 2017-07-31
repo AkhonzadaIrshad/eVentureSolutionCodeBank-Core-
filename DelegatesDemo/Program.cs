@@ -4,8 +4,6 @@ namespace DelegatesDemo
 {
     class Program
     {
-
-
         delegate void DemoDelegate(string value);
 
         static void Print(string name)
@@ -26,15 +24,8 @@ namespace DelegatesDemo
 
         //    demoDelegate("Evs Lahore");
 
-
-
         //    Console.ReadKey();
 
-
         //}
-
-
-
-      
     }
 }

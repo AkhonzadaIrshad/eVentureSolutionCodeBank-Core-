@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Sockets;
-using System.Text;
-
-namespace MakeUpClassBatch311
+﻿namespace MakeUpClassBatch311
 {
     class Person
     {
@@ -39,8 +34,7 @@ namespace MakeUpClassBatch311
 
         public Person()
         {
-            address=new Address();
+            address = new Address();
         }
-
     }
 }

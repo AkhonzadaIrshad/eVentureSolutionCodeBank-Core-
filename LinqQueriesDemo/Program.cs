@@ -1,11 +1,10 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 
 namespace LinqQueriesDemo
 {
     class Program
     {
-       static string[] days = { "Monday",
+        static string[] days = { "Monday",
                           "Tuesday",
                           "Wednesday",
                           "Thursday",
@@ -15,7 +14,7 @@ namespace LinqQueriesDemo
                          };
         static void Main(string[] args)
         {
-            var a=(
+            var a = (
                 from n in days
                 where n.Length > 3
                 orderby n descending

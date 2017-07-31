@@ -24,13 +24,10 @@ namespace GenericDemo
                 }
             };
 
-
             i.Add(new SomeClass<int>()
             {
                 Somedata = 6,
             });
-
-
 
             SomeClass<string> obj = new SomeClass<string>();
             obj.Somedata = "Hashim";
@@ -38,7 +35,6 @@ namespace GenericDemo
             SomeClass<int> obj2 = new SomeClass<int>();
             obj2.Somedata = 5;
             Console.WriteLine(obj2.Somedata);
-
 
             Console.ReadKey();
         }

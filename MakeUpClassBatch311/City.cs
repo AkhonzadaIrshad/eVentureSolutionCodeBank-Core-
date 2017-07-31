@@ -24,6 +24,5 @@
             get { return country; }
             set { country = value; }
         }
-
     }
 }

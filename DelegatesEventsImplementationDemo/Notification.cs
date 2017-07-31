@@ -5,9 +5,9 @@ namespace DelegatesEventsImplementationDemo
     //Data related to a notification to be sent
     class Notification
     {
-        private string  name;
+        private string name;
 
-        public string  Name
+        public string Name
         {
             get { return name; }
             set { name = value; }
@@ -26,7 +26,5 @@ namespace DelegatesEventsImplementationDemo
             get { return dateTime; }
             set { dateTime = value; }
         }
-
-
     }
 }

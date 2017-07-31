@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ClassDemo
+﻿namespace ClassDemo
 {
     class DummyClass
     {
@@ -14,14 +10,12 @@ namespace ClassDemo
             set { firstName = value; }
         }
 
-        private static int counter=0;
+        private static int counter = 0;
 
         public int CountIt()
         {
             counter++;
             return counter;
         }
-
-
     }
 }

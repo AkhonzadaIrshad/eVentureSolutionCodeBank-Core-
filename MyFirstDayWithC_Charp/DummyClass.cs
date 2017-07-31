@@ -1,15 +1,13 @@
-﻿
-using System;
+﻿using System;
 namespace MyFirstDayWithC_Sharp
 {
-
     class DummyClass
     {
         static void Main(string[] args)
         {
             ///value Types simple number data
-            //short 
-            //int 
+            //short
+            //int
             //long
             //value Types for Precise Data
             //float
@@ -34,7 +32,6 @@ namespace MyFirstDayWithC_Sharp
             //explicit 2
             _short = Convert.ToInt16(_int);
 
-
             //Textual Data
 
             string _string = "EVS Lahore";
@@ -48,11 +45,9 @@ namespace MyFirstDayWithC_Sharp
             //_int = Convert.ToInt32(Console.ReadLine());
             //_string = Console.ReadLine();
 
-
             //Date Time
             //DateTime dateandTime;
             //dateandTime = DateTime.Now;
-
 
             //Concatination
             //Console.WriteLine($"Date Time is : {dateandTime.ToString()}");
@@ -61,17 +56,14 @@ namespace MyFirstDayWithC_Sharp
             //Console.WriteLine($"Values is : {value}");
             //// Console.WriteLine("Hello .NET ");
 
-
             //Conditional Structures
             //int a = 30;
             //int b = 20;
             //int c;
 
-
             //If
             //if (a > b)
             //
-
 
             //if (b>a)
             //{
@@ -81,7 +73,6 @@ namespace MyFirstDayWithC_Sharp
             //{
             //    c = 0;
             //}
-
 
             //Switch Case
 
@@ -108,15 +99,7 @@ namespace MyFirstDayWithC_Sharp
 
             //}
 
-
-
-
-
-          //  Console.WriteLine($"The Value of c is : {a}");
-
-
-
-
+            //  Console.WriteLine($"The Value of c is : {a}");
 
             //Control Structures
             //For Loop
@@ -126,23 +109,22 @@ namespace MyFirstDayWithC_Sharp
             //    Console.WriteLine("Hello World");
             //}
 
-            //While Loop 
+            //While Loop
 
             int a = 20;
             int b = 20;
 
-            while (a<b)
+            while (a < b)
             {
                 Console.WriteLine("A is Smaller than B");
                 a++;
             }
 
-            //Do While 
+            //Do While
             do
             {
                 Console.WriteLine("A is Smaller than B");
                 a++;
-
             } while (a < b);
 
             Console.WriteLine("Press Any Key ...");

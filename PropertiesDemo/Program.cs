@@ -6,8 +6,6 @@ namespace PropertiesDemo
     {
         static void Main(string[] args)
         {
-            
-
             DummyClass obj = new DummyClass();
 
             obj.SetName("Evs Lahore");
@@ -20,4 +18,4 @@ namespace PropertiesDemo
             Console.ReadKey();
         }
     }
- }
+}

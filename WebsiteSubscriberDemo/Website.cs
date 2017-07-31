@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace WebsiteSubscriberDemo
 {
@@ -10,7 +8,7 @@ namespace WebsiteSubscriberDemo
         //2- Create an event based on that delegate
         //3- Raise that event
 
-        public  delegate void MailEventHandler(object sender,EventArgs args);
+        public delegate void MailEventHandler(object sender, EventArgs args);
 
         public event MailEventHandler onNewMail;
 
@@ -21,8 +19,7 @@ namespace WebsiteSubscriberDemo
 
         protected virtual void SentMail()
         {
-            onNewMail(this,EventArgs.Empty);
+            onNewMail(this, EventArgs.Empty);
         }
-
     }
 }

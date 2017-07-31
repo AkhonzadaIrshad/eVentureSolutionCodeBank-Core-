@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Text;
 
 namespace InterfacesDemo
 {
-    class Circle:Shape,IEnumerable
+    class Circle : Shape, IEnumerable
     {
         public override void Area()
         {
@@ -14,8 +12,6 @@ namespace InterfacesDemo
 
         public IEnumerator GetEnumerator()
         {
-
-            
             throw new NotImplementedException();
         }
     }

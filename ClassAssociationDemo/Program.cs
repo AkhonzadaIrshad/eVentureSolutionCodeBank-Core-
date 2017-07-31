@@ -8,7 +8,7 @@ namespace ClassAssociationDemo
         {
             Student std = new Student
             {
-                Id   = 2,
+                Id = 2,
                 Name = "Hashim",
                 Info =
                 {
@@ -17,26 +17,19 @@ namespace ClassAssociationDemo
                 }
             };
 
-
-
             //Info i=new Info();
             //i.Height=6.1f;
             //i.BloodGroup = "O+";
             //std.Info = i;
 
-
-
-
-
             Console.WriteLine(
                 std.Id + " " +
-                std.Name + " " + 
+                std.Name + " " +
                 std.Info.Height + " " +
                 std.Info.BloodGroup
                 );
 
             Console.ReadKey();
-
         }
     }
 }

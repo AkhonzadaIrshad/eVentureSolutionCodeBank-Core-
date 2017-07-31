@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PolymorphismDemo
+﻿namespace PolymorphismDemo
 {
     abstract class Employee
     {
-
         private int id;
 
         public int Id

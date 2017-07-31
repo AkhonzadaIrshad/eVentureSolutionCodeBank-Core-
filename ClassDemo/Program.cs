@@ -6,13 +6,9 @@ namespace ClassDemo
     {
         static void Main(string[] args)
         {
-           
             DummyClass d = new DummyClass();
 
-
             Console.WriteLine($"Object No : {d.CountIt()}");
-            
-
 
             DummyClass C = new DummyClass();
             Console.WriteLine($"Object No : {C.CountIt()}");
@@ -21,6 +17,4 @@ namespace ClassDemo
             Console.ReadKey();
         }
     }
-
-    
 }

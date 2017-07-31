@@ -1,24 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PropertiesDemo
+﻿namespace PropertiesDemo
 {
-   public class DummyClass
+    public class DummyClass
     {
         private string name;
 
-        //setter 
+        //setter
         public void SetName(string nm)
         {
             name = nm;
         }
-        //getter 
+        //getter
         public string GetName()
         {
             return name;
         }
-
 
         //properties
         public string Name

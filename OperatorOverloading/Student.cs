@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OperatorOverloading
+﻿namespace OperatorOverloading
 {
     class Student
     {
-
         private int fee;
 
         public int Fee
@@ -15,11 +10,9 @@ namespace OperatorOverloading
             set { fee = value; }
         }
 
-
         public static int operator +(Student s1, Student s2)
         {
             return s1.Fee + s2.Fee;
         }
-
     }
 }

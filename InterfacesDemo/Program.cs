@@ -1,13 +1,9 @@
-﻿using System;
-
-namespace InterfacesDemo
+﻿namespace InterfacesDemo
 {
     class Program
     {
         static void Main(string[] args)
         {
-           
-
         }
     }
 }

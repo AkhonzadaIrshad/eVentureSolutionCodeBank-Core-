@@ -10,15 +10,12 @@
             set { name = value; }
         }
 
-
         private int code;
 
-        public int Code 
+        public int Code
         {
             get { return code; }
             set { code = value; }
         }
-
-
     }
 }

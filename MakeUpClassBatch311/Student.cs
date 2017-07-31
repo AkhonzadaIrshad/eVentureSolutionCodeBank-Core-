@@ -1,6 +1,6 @@
 ﻿namespace MakeUpClassBatch311
 {
-    class Student:Person
+    class Student : Person
     {
         private int rollNo;
 
@@ -9,9 +9,5 @@
             get { return rollNo; }
             set { rollNo = value; }
         }
-
-
-
-
     }
 }

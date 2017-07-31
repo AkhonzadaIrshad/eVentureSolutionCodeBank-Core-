@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PolymorphismDemo
+﻿namespace PolymorphismDemo
 {
-    class Manager:Employee
+    class Manager : Employee
     {
-
-
         private string email;
 
         public string Email
@@ -20,7 +14,5 @@ namespace PolymorphismDemo
         {
             return Salary;
         }
-
-
     }
 }

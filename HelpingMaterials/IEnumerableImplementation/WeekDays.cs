@@ -1,18 +1,12 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections;
 
 namespace HelpingMaterials.IEnumerableImplementation
 {
-
     //static void Main(string[] args)
     //{
-
     //    WeekDays week = new WeekDays();
     //    foreach (var weekDay in week)
     //    {
-
     //        Console.WriteLine(weekDay);
 
     //    }
@@ -21,11 +15,9 @@ namespace HelpingMaterials.IEnumerableImplementation
 
     //}
 
-
-
-    class WeekDays:IEnumerable
+    class WeekDays : IEnumerable
     {
-        private string[] Days = {"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
+        private string[] Days = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
         public IEnumerator GetEnumerator()
         {
             foreach (string day in Days)

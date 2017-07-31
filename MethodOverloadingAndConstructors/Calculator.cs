@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MethodOverloadingAndConstructors
+﻿namespace MethodOverloadingAndConstructors
 {
     class Calculator
     {
@@ -10,14 +6,13 @@ namespace MethodOverloadingAndConstructors
         {
             pi = 3.14f;
         }
-   
+
         private static float pi;
 
         public static float AreaOfCircle(float radius)
         {
             return radius * radius * pi;
         }
-
 
         public static int Add(int a, int b)
         {
@@ -27,7 +22,7 @@ namespace MethodOverloadingAndConstructors
         {
             return a + b;
         }
-        public static int Add(int a, int b,int c)
+        public static int Add(int a, int b, int c)
         {
             return a + b;
         }
