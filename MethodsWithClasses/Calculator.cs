@@ -2,7 +2,7 @@
 
 namespace MethodsWithClasses
 {
-    class Calculator
+    public class Calculator
     {
         //public static int AdditionMethod(int one, int two)
         // {
@@ -16,7 +16,8 @@ namespace MethodsWithClasses
 
         public Calculator()
         {
-            Console.WriteLine("Im Constructor :) ");
+            Console.WriteLine("Im Constructor :)");
         }
+
     }
 }

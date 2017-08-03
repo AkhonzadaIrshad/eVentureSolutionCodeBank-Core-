@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstDayWithOO", "MyFirst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstDayWithOOP", "FirstDayWithOOP\FirstDayWithOOP.csproj", "{1C3CAF87-5A80-42B7-B2E4-1FAA9CDB7E7F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApplicationTests", "ConsoleApplicationTests", "{E94235AB-5669-4448-B0D1-D2F83462F1CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodWithClassesTest", "MethodWithClassesTest\MethodWithClassesTest.csproj", "{744C7693-0AE3-4FAF-9AD3-6E7A2F47B3BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +183,10 @@ Global
 		{1C3CAF87-5A80-42B7-B2E4-1FAA9CDB7E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C3CAF87-5A80-42B7-B2E4-1FAA9CDB7E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C3CAF87-5A80-42B7-B2E4-1FAA9CDB7E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744C7693-0AE3-4FAF-9AD3-6E7A2F47B3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744C7693-0AE3-4FAF-9AD3-6E7A2F47B3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744C7693-0AE3-4FAF-9AD3-6E7A2F47B3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744C7693-0AE3-4FAF-9AD3-6E7A2F47B3BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -212,5 +220,6 @@ Global
 		{842230C4-66C9-43E8-8223-C343A36527BB} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
 		{EBF3A837-71EB-49E6-ADDB-F05E307146EA} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
 		{1C3CAF87-5A80-42B7-B2E4-1FAA9CDB7E7F} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
+		{744C7693-0AE3-4FAF-9AD3-6E7A2F47B3BF} = {E94235AB-5669-4448-B0D1-D2F83462F1CA}
 	EndGlobalSection
 EndGlobal
