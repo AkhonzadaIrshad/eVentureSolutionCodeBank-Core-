@@ -8,6 +8,13 @@ namespace FirstDayWithOOP
 {
     public class Course
     {
+
+        public Course()
+        {
+            Name = "Empty";
+        }
+
+
         private string name;
 
         public string Name

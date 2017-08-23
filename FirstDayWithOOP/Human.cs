@@ -23,5 +23,16 @@ namespace FirstDayWithOOP
             set { fatherName = value; }
         }
 
+
+        private Address address;
+
+        public Address Address
+        {
+            get { return address; }
+            set { address = value; }
+        }
+
+
+
     }
 }

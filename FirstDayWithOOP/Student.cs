@@ -3,6 +3,21 @@ namespace FirstDayWithOOP
 
    public class Student:Human//Inheritance (IS A)
     {
+        public Student(Address address)
+        {
+            Name = "Empty";
+            FatherName = "Empty";
+            RollNumber = 00;
+
+
+            //Composition
+            Course=new Course();
+
+            //Aggregation
+            Address = address;
+        }
+
+
         //Association (HAS A)
         private Course course;
 
