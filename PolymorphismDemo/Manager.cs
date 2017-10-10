@@ -1,6 +1,7 @@
 ﻿namespace PolymorphismDemo
 {
-    class Manager : Employee
+     
+   class Manager : Employee
     {
         private string email;
 

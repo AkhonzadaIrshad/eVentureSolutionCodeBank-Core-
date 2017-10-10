@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApplications", "ConsoleApplications", "{654D34EF-3B50-4A9B-8520-FB40FBBED411}"
 EndProject
@@ -67,7 +67,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodWithClassesTest", "Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondDayWithMethods", "SecondDayWithMethods\SecondDayWithMethods.csproj", "{2809AF94-BD1F-4147-B4EE-EE78D8718BB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalStructuresDemo", "ConditionalStructuresDemo\ConditionalStructuresDemo.csproj", "{ACF57CD8-2201-400C-A17F-07E36C0F2D46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalStructuresDemo", "ConditionalStructuresDemo\ConditionalStructuresDemo.csproj", "{ACF57CD8-2201-400C-A17F-07E36C0F2D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomComparerDemo", "CustomComparerDemo\CustomComparerDemo.csproj", "{83BBF35A-BDD6-4BBF-9D01-19B14799A6FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortObjectsViaComparisonDelegateDemo", "SortObjectsViaComparisonDelegateDemo\SortObjectsViaComparisonDelegateDemo.csproj", "{EE1FED56-EC6E-4D6A-89A6-906F3EA78EFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateDelegateDemo", "PredicateDelegateDemo\PredicateDelegateDemo.csproj", "{21183BE7-36AA-4688-9B1C-F5C40DB5145B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesEventsLambdaWithSargodhians", "DelegatesEventsLambdaWithSargodhians\DelegatesEventsLambdaWithSargodhians.csproj", "{AB2C21DA-A6E8-4179-BF82-892DCDA47811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpRevision321", "CsharpRevision321\CsharpRevision321.csproj", "{0CBB587E-CF3A-4576-8CFD-DE8C922A41C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -199,6 +209,26 @@ Global
 		{ACF57CD8-2201-400C-A17F-07E36C0F2D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACF57CD8-2201-400C-A17F-07E36C0F2D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACF57CD8-2201-400C-A17F-07E36C0F2D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83BBF35A-BDD6-4BBF-9D01-19B14799A6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BBF35A-BDD6-4BBF-9D01-19B14799A6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BBF35A-BDD6-4BBF-9D01-19B14799A6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BBF35A-BDD6-4BBF-9D01-19B14799A6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1FED56-EC6E-4D6A-89A6-906F3EA78EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1FED56-EC6E-4D6A-89A6-906F3EA78EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1FED56-EC6E-4D6A-89A6-906F3EA78EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1FED56-EC6E-4D6A-89A6-906F3EA78EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21183BE7-36AA-4688-9B1C-F5C40DB5145B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21183BE7-36AA-4688-9B1C-F5C40DB5145B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21183BE7-36AA-4688-9B1C-F5C40DB5145B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21183BE7-36AA-4688-9B1C-F5C40DB5145B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2C21DA-A6E8-4179-BF82-892DCDA47811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2C21DA-A6E8-4179-BF82-892DCDA47811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2C21DA-A6E8-4179-BF82-892DCDA47811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2C21DA-A6E8-4179-BF82-892DCDA47811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBB587E-CF3A-4576-8CFD-DE8C922A41C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBB587E-CF3A-4576-8CFD-DE8C922A41C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBB587E-CF3A-4576-8CFD-DE8C922A41C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBB587E-CF3A-4576-8CFD-DE8C922A41C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -235,5 +265,13 @@ Global
 		{744C7693-0AE3-4FAF-9AD3-6E7A2F47B3BF} = {E94235AB-5669-4448-B0D1-D2F83462F1CA}
 		{2809AF94-BD1F-4147-B4EE-EE78D8718BB8} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
 		{ACF57CD8-2201-400C-A17F-07E36C0F2D46} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
+		{83BBF35A-BDD6-4BBF-9D01-19B14799A6FB} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
+		{EE1FED56-EC6E-4D6A-89A6-906F3EA78EFC} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
+		{21183BE7-36AA-4688-9B1C-F5C40DB5145B} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
+		{AB2C21DA-A6E8-4179-BF82-892DCDA47811} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
+		{0CBB587E-CF3A-4576-8CFD-DE8C922A41C0} = {654D34EF-3B50-4A9B-8520-FB40FBBED411}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EA7F518-81A2-49A8-94D2-A0561FCE97F3}
 	EndGlobalSection
 EndGlobal

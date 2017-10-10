@@ -10,7 +10,7 @@ namespace ConditionalStructuresDemo
 
             switch (Number)
             {
-                case ;
+                case 0:
                 {
                     break;
                 }

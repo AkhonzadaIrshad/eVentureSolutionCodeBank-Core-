@@ -1,4 +1,6 @@
-﻿namespace PolymorphismDemo
+﻿using System;
+
+namespace PolymorphismDemo
 {
     abstract class Employee
     {
@@ -30,6 +32,12 @@
         {
             get { return designation; }
             set { designation = value; }
+        }
+
+
+        public void Hello()
+        {
+            Console.WriteLine("Hello");
         }
 
         public abstract double TellMeYourSalary();
