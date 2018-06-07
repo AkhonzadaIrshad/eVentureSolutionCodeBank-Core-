@@ -13,6 +13,11 @@ namespace PropertiesDemo
 
             DummyClass obj2 = new DummyClass();
             obj2.Name = "Evs Lahore With Property";
+
+
+
+
+
             Console.WriteLine(obj2.Name);
 
             Console.ReadKey();
